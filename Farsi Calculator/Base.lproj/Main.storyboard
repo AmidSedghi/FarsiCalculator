@@ -34,7 +34,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                 <state key="normal" title="AC"/>
                                 <connections>
-                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ixP-Op-Jre"/>
                                     <action selector="didPressClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T4W-bt-NOh"/>
                                 </connections>
                             </button>
@@ -46,8 +45,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="didPressDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Te-PK-71G"/>
-                                    <action selector="didPressPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9nS-lB-raM"/>
+                                    <action selector="didPressDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pK-ek-fgv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7u-8b-Lky">
@@ -179,7 +177,7 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                 <state key="normal" title="﹪"/>
                                 <connections>
-                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLd-eQ-xUh"/>
+                                    <action selector="didPressPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Af-Dw-Udg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d35-o3-nQn">
@@ -188,7 +186,7 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                 <state key="normal" title="+/-"/>
                                 <connections>
-                                    <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5s4-wl-bWT"/>
+                                    <action selector="didPressSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogJ-Fz-x2R"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnt-5n-PHW">
@@ -196,6 +194,9 @@
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                 <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="didPressDecimal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HCH-ui-8Ob"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsL-Xn-THx">
                                 <rect key="frame" x="282" y="564" width="92.5" height="101.5"/>
