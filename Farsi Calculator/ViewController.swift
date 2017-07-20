@@ -239,6 +239,7 @@ class ViewController: UIViewController {
         if (labelString.characters.last == "."){
             print(".")
             result.text? = (result.text?.appending("."))!
+            result.text? = (result.text?.appending("0"))!
         } else if (labelString == ""){
             result.text? = (result.text?.appending("0"))!
         }
